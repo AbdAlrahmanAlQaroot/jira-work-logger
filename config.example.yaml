@@ -1,0 +1,19 @@
+jira:
+  url: "https://your-company.atlassian.net"
+  email: "you@your-company.com"
+  api_token: "create one at https://id.atlassian.com/manage-profile/security/api-tokens"
+  project_key: "PROJ"
+
+git:
+  author_email: "you@your-company.com"
+  repo_roots:
+    - ~/code
+  remote_orgs:
+    - your-github-org
+  repos: []
+
+defaults:
+  issue_type: "Task"
+  frontend_services: []
+  task_type_field: ""
+  task_type_options: {}
